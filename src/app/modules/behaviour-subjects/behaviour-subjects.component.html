@@ -1,0 +1,18 @@
+<div class="mat-card-wrraper">
+    <mat-card>
+<div class="subjects-parent">
+    <h2 class="text-center"><u>Subjects in Angular</u></h2>
+
+    <div class=" inner-container">*Subject : <strong>{{subjectValue}}</strong></div>
+    <div class=" inner-container">*Behaviour subject : <strong>{{behaviourValue}}</strong></div>
+    
+    <div class=" inner-container">*Replay subject : </div>
+    <strong><div *ngFor="let replay of replayValue" class=" inner-container">{{replay}}</div></strong>
+
+    <div class=" inner-container">*Async subject : <strong>{{asyncValue}}</strong></div>
+
+  
+    <div class="inner-container"><button mat-raised-button class="mat-raised-button "(click)="subscribeHere()"> SUBSCRIBE HERE </button></div>
+</div>
+    </mat-card>
+</div>

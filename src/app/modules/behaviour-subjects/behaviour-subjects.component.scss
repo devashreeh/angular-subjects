@@ -1,0 +1,35 @@
+.subjects-parent{
+
+    .inner-container{
+        font-family: sans-serif;
+        font-size: 14px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .btn-subscribe {
+        border: transparent;
+        background-color: aliceblue;
+        border-radius: 15px;
+        height: 30px;
+        width: fit-content;
+    }
+    .text-center{
+        text-align: center;
+    }
+}
+
+.mat-card-wrraper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.mat-raised-button,
+button {
+    background-color: #0a395a ;
+    color: white;
+    margin: 10px;
+    justify-content:"space-between";
+   
+}
